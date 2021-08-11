@@ -3,6 +3,8 @@ import { Route, Link } from 'react-router-dom'
 import './App.css';
 import FunctionalThings from '../FunctionalThings/FunctionalThings'
 import StyledThings from '../StyledThings/StyledThings'
+import JessieThings from '../JessieThings/JessieThings'
+
 
 class App extends Component {
   state = { 
@@ -69,6 +71,9 @@ class App extends Component {
         </Route>
         <Route exact path='/the-well-styled-things'>
           <StyledThings things={this.state.davidsThings} />
+        </Route>
+        <Route exact path='/Jessie-things'>
+          <JessieThings things={this.state.davidsThings} />
         </Route>
         <h1>jess's branch</h1>
         <h2>Kyler did this</h2>
