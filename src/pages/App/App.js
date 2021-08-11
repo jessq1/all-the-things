@@ -71,6 +71,7 @@ class App extends Component {
           <StyledThings things={this.state.davidsThings} />
         </Route>
         <h1>jess's branch</h1>
+        <h2>Kyler did this</h2>
       </>
       
     );
