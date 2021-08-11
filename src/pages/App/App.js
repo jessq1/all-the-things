@@ -69,6 +69,7 @@ class App extends Component {
         <Route exact path='/the-well-styled-things'>
           <StyledThings things={this.state.davidsThings} />
         </Route>
+        <h1> jess branch</h1>
       </>
       
     );
