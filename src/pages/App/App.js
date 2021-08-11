@@ -58,6 +58,7 @@ class App extends Component {
           <>
             {/* All the <a> tags should live here */}
             <h1>All-The-Things</h1>
+            <h2>Checking if Alex Works</h2>
             <Link to="/the-functional-things">Shahzad's Things</Link><br/>
             <Link to="/the-well-styled-things">David's Things</Link><br/>
           </>
