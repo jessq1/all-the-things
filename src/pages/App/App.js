@@ -58,7 +58,8 @@ class App extends Component {
           <>
             {/* All the <a> tags should live here */}
             <h1>All-The-Things</h1>
-            <h2>Checking if Alex Works</h2>
+            <h2>Alex things</h2>
+            <h3>This can't be real</h3>
             <Link to="/the-functional-things">Shahzad's Things</Link><br/>
             <Link to="/the-well-styled-things">David's Things</Link><br/>
           </>
@@ -70,7 +71,7 @@ class App extends Component {
         <Route exact path='/the-well-styled-things'>
           <StyledThings things={this.state.davidsThings} />
         </Route>
-        <h1>jess's branch</h1>
+        <h1> jess branch</h1>
       </>
       
     );
